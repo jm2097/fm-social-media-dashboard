@@ -1,0 +1,37 @@
+/* -------------------
+    table of content
+
+    1. imports
+    2. base styles
+
+    ------------------ */
+
+/* 1. imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* 2. base styles */
+:root {
+  --bg-main: #fff;
+  --color: #333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 400 1.4rem/1.5 'Inter', sans-serif;
+  margin: 0;
+}
