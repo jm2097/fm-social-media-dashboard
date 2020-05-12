@@ -4,6 +4,7 @@
     1. imports
     2. base styles
     3. header
+    4. toolbar
     ------------------ */
 
 /* 1. imports */
@@ -52,8 +53,8 @@ body.dark-theme {
   --bg: hsl(230, 17%, 14%);
   --bg-top-pattern: hsl(232, 19%, 15%);
   --bg-card: hsl(228, 28%, 20%);
-  --text-primary: hsl(0, 0%, 100%);
-  --text-secondary: hsl(228, 34%, 66%);
+  --text-primary: hsl(228, 34%, 66%);
+  --text-secondary: hsl(0, 0%, 100%);
 }
 
 h1,
@@ -149,6 +150,10 @@ h6,
 
 /* header */
 .header {
+  height: 250px;
+  background-color: var(--bg-top-pattern);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 /* toolbar */
@@ -156,7 +161,7 @@ h6,
   display: flex;
   align-items: start;
   flex-flow: column;
-  padding-top: 3.5rem;
+  padding-top: 2rem;
   margin-bottom: 3rem;
 }
 
