@@ -5,6 +5,7 @@
     2. base styles
     3. header
     4. toolbar
+    5. cards
     ------------------ */
 
 /* 1. imports */
@@ -116,6 +117,10 @@ h6,
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -191,6 +196,10 @@ h6,
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 0;
+}
+
+.toolbar-item a {
+  color: inherit;
 }
 
 .toolbar-item-text {
