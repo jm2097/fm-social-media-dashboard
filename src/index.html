@@ -18,7 +18,8 @@
     />
 
     <!-- styles -->
-    <link rel="stylesheet" href="/src/css/normalize.css.css" />
+    <link rel="stylesheet" href="/src/css/normalize.css" />
+    <link rel="stylesheet" href="/src/css/utilities.css" />
     <link rel="stylesheet" href="/src/css/styles.css" />
   </head>
   <body class="dark-theme">
@@ -35,7 +36,7 @@
               <h1>
                 <a href="/">Social Media Dashboard</a>
               </h1>
-              <span class="followers-text">Total Followers: 23,004</span>
+              <span class="u-bold">Total Followers: 23,004</span>
             </div>
             <!-- toolbar item end -->
           </div>
@@ -45,7 +46,7 @@
           <div class="toolbar-after">
             <!-- toolbar item -->
             <div class="toolbar-item">
-              <div class="toolbar-item-text">
+              <div class="u-bold u-pr-3">
                 Dark Mode
               </div>
               <div class="toolbar-item-control">
@@ -67,7 +68,7 @@
         <!-- container -->
         <div class="container">
           <!-- cards wrapper-->
-          <div class="cards-wrapper">
+          <div class="cards-main-wrapper">
             <!-- card -->
             <div class="card card-main">
               <div class="card-social">
@@ -75,15 +76,17 @@
                   src="./assets/images/icon-facebook.svg"
                   alt="Social brand"
                 />
-                @nathanf
+                <span class="u-bold">
+                  @nathanf
+                </span>
               </div>
 
-              <div class="card-stat">
-                <span class="followers-number">1987</span>
-                <span class="followers-text">Followers</span>
+              <div class="u-flex-column">
+                <span class="u-bold u-size-60 u-secondary">1987</span>
+                <span class="u-spacing u-uppercase">Followers</span>
               </div>
 
-              <div class="card-advice">12 Today</div>
+              <div class="u-badge">12 Today</div>
             </div>
             <!-- card end -->
           </div>
@@ -98,7 +101,7 @@
         <!-- container -->
         <div class="container">
           <!-- cards wrapper -->
-          <div class="cards-wrapper"></div>
+          <div class="cards-overview-wrapper"></div>
           <!-- cards wrapper end -->
         </div>
         <!-- container end -->

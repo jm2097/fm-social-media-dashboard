@@ -3,10 +3,11 @@
 
     1. imports
     2. base styles
-    3. header
-    4. toolbar
-    5. sections
-    6. cards
+    3. base styles
+    4. header
+    5. toolbar
+    6. sections
+    7. cards
     ------------------ */
 
 /* 1. imports */
@@ -124,8 +125,8 @@ a {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -203,10 +204,6 @@ a {
   color: inherit;
 }
 
-.toolbar-item-text {
-  padding-right: 3rem;
-}
-
 @media (min-width: 768px) {
   .toolbar {
     flex-direction: row;
@@ -226,13 +223,13 @@ a {
 }
 
 /* 6. cards */
+.cards-main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 230px;
+}
+
 .card {
   position: relative;
-}
-
-.section-main .card {
   background-color: var(--bg-card);
-}
-
-.stat-overview {
 }
