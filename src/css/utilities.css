@@ -8,7 +8,7 @@
 
 /* text utilities */
 
-.u-bold {
+.u-text-bold {
   font-weight: 700;
 }
 .u-capitalize {
@@ -20,91 +20,91 @@
 .u-uppercase {
   text-transform: uppercase;
 }
-.u-size-12 {
+.u-font-size-12 {
   font-size: 1.2rem;
 }
-.u-size-14 {
+.u-font-size-14 {
   font-size: 1.4rem;
 }
-.u-size-16 {
+.u-font-size-16 {
   font-size: 1.6rem;
 }
-.u-size-18 {
+.u-font-size-18 {
   font-size: 1.8rem;
 }
-.u-size-20 {
+.u-font-size-20 {
   font-size: 2rem;
 }
-.u-size-22 {
+.u-font-size-22 {
   font-size: 2.2rem;
 }
-.u-size-24 {
+.u-font-size-24 {
   font-size: 2.4rem;
 }
-.u-size-26 {
+.u-font-size-26 {
   font-size: 2.6rem;
 }
-.u-size-28 {
+.u-font-size-28 {
   font-size: 2.8rem;
 }
-.u-size-30 {
+.u-font-size-30 {
   font-size: 3rem;
 }
-.u-size-32 {
+.u-font-size-32 {
   font-size: 3.2rem;
 }
-.u-size-34 {
+.u-font-size-34 {
   font-size: 3.4rem;
 }
-.u-size-36 {
+.u-font-size-36 {
   font-size: 3.6rem;
 }
-.u-size-38 {
+.u-font-size-38 {
   font-size: 3.8rem;
 }
-.u-size-40 {
+.u-font-size-40 {
   font-size: 4rem;
 }
-.u-size-42 {
+.u-font-size-42 {
   font-size: 4.2rem;
 }
-.u-size-44 {
+.u-font-size-44 {
   font-size: 4.4rem;
 }
-.u-size-46 {
+.u-font-size-46 {
   font-size: 4.6rem;
 }
-.u-size-48 {
+.u-font-size-48 {
   font-size: 4.8rem;
 }
-.u-size-50 {
+.u-font-size-50 {
   font-size: 5rem;
 }
-.u-size-52 {
+.u-font-size-52 {
   font-size: 5.2rem;
 }
-.u-size-54 {
+.u-font-size-54 {
   font-size: 5.4rem;
 }
-.u-size-56 {
+.u-font-size-56 {
   font-size: 5.6rem;
 }
-.u-size-58 {
+.u-font-size-58 {
   font-size: 5.8rem;
 }
-.u-size-60 {
+.u-font-size-60 {
   font-size: 6rem;
 }
-.u-size-32 {
+.u-font-size-32 {
   font-size: 5.2rem;
 }
-.u-size-34 {
+.u-font-size-34 {
   font-size: 5.4rem;
 }
-.u-size-36 {
+.u-font-size-36 {
   font-size: 5.6rem;
 }
-.u-size-38 {
+.u-font-size-38 {
   font-size: 5.8rem;
 }
 .u-spacing {
@@ -115,6 +115,31 @@
 }
 
 /* dimensions */
+.u-w-25 {
+  width: 25%;
+}
+.u-w-50 {
+  width: 50%;
+}
+.u-w-75 {
+  width: 75%;
+}
+.u-w-100 {
+  width: 100%;
+}
+
+.u-h-25 {
+  height: 25%;
+}
+.u-h-50 {
+  height: 50%;
+}
+.u-h-75 {
+  height: 75%;
+}
+.u-h-100 {
+  height: 100%;
+}
 
 .u-m-0 {
   margin: 0 !important;
@@ -481,4 +506,13 @@
 }
 .u-justify-content-end {
   justify-content: flex-end;
+}
+.u-justify-content-between {
+  justify-content: space-between;
+}
+.u-justify-content-evenly {
+  justify-content: space-evenly;
+}
+.u-justify-content-around {
+  justify-content: space-around;
 }
