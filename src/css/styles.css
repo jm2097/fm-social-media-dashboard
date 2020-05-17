@@ -271,17 +271,21 @@ a {
   gap: 3rem;
 }
 
-@media (min-width: 768px) {
-  .cards-wrapper {
-    grid-template-columns: repeat(auto-fit, minmax(247px, 247px));
-  }
-}
-
 .cards-wrapper-main {
   grid-auto-rows: 230px;
 }
 .cards-wrapper-overview {
   grid-auto-rows: 125px;
+  row-gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cards-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(247px, 247px));
+  }
+  .cards-wrapper-overview {
+    row-gap: 3rem;
+  }
 }
 
 .card {
@@ -313,4 +317,10 @@ a {
 }
 .cards-wrapper-main .card.card-youtube::before {
   background-color: var(--youtube);
+}
+
+.footer {
+  background-color: var(--bg-top-pattern);
+  margin-top: 3rem;
+  padding: 2rem 0;
 }
