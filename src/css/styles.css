@@ -5,7 +5,8 @@
     2. base styles
     3. header
     4. toolbar
-    5. cards
+    5. sections
+    6. cards
     ------------------ */
 
 /* 1. imports */
@@ -153,7 +154,7 @@ a {
   }
 }
 
-/* header */
+/* 3. header */
 .header {
   height: 250px;
   background-color: var(--bg-top-pattern);
@@ -161,7 +162,7 @@ a {
   border-bottom-right-radius: 30px;
 }
 
-/* toolbar */
+/* 4. toolbar */
 .toolbar {
   display: flex;
   align-items: start;
@@ -217,4 +218,21 @@ a {
   .toolbar-item {
     justify-content: flex-end;
   }
+}
+
+/* 5. sections */
+.section {
+  position: relative;
+}
+
+/* 6. cards */
+.card {
+  position: relative;
+}
+
+.section-main .card {
+  background-color: var(--bg-card);
+}
+
+.stat-overview {
 }
