@@ -16,7 +16,7 @@
 /* 2. base styles */
 :root {
   --bg: hsl(0, 0%, 100%);
-  --bg-top-pattern: hsl(225, 100%, 98%);
+  --bg-pattern: hsl(225, 100%, 98%);
   --bg-card: hsl(227, 47%, 96%);
   --card-border-radius: 5px;
   --text-secondary: hsl(230, 17%, 14%);
@@ -62,7 +62,7 @@ body {
 
 body.dark-theme {
   --bg: hsl(230, 17%, 14%);
-  --bg-top-pattern: hsl(232, 19%, 15%);
+  --bg-pattern: hsl(232, 19%, 15%);
   --bg-card: hsl(228, 28%, 20%);
   --text-primary: hsl(228, 34%, 66%);
   --text-secondary: hsl(0, 0%, 100%);
@@ -129,6 +129,7 @@ h6,
 
 a {
   text-decoration: none;
+  color: #2c74e0;
 }
 
 .container {
@@ -179,7 +180,7 @@ a {
 /* 3. header */
 .header {
   height: 230px;
-  background-color: var(--bg-top-pattern);
+  background-color: var(--bg-pattern);
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -320,7 +321,7 @@ a {
 }
 
 .footer {
-  background-color: var(--bg-top-pattern);
-  margin-top: 3rem;
+  background-color: var(--bg-pattern);
+  margin-top: 5rem;
   padding: 2rem 0;
 }
