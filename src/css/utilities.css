@@ -20,6 +20,11 @@
 .u-uppercase {
   text-transform: uppercase;
 }
+.u-text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
 .u-font-size-12 {
   font-size: 1.2rem;
 }

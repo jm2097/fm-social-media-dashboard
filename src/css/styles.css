@@ -20,6 +20,9 @@
   --bg: hsl(0, 0%, 100%);
   --bg-pattern: hsl(225, 100%, 98%);
   --bg-card: hsl(227, 47%, 96%);
+  --bg-card-light-hover: hsl(232, 33%, 91%);
+  --bg-card-dark-hover: hsl(228, 26%, 27%);
+  --bg-card-hover: var(--bg-card-light-hover);
   --card-border-radius: 5px;
   --text-secondary: hsl(230, 17%, 14%);
   --text-primary: hsl(228, 12%, 44%);
@@ -74,6 +77,7 @@ body.dark-theme {
   --bg: hsl(230, 17%, 14%);
   --bg-pattern: hsl(232, 19%, 15%);
   --bg-card: hsl(228, 28%, 20%);
+  --bg-card-hover: var(--bg-card-dark-hover);
   --text-primary: hsl(228, 34%, 66%);
   --text-secondary: hsl(0, 0%, 100%);
   --bg-switch: var(--bg-switch-dark);
@@ -305,6 +309,16 @@ a {
   position: relative;
   background-color: var(--bg-card);
   border-radius: var(--card-border-radius);
+  cursor: pointer;
+  transition: 300ms background;
+}
+
+.card:hover {
+  background-color: var(--bg-card-hover);
+}
+
+.card-nickname {
+  max-width: 155px;
 }
 
 .cards-wrapper-main .card::before {
