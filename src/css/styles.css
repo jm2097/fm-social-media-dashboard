@@ -67,7 +67,7 @@ body {
   text-size-adjust: 100%;
   background-color: var(--bg);
   color: var(--text-primary);
-  transition: background-color 400ms ease, color 600ms ease;
+  transition: background-color 200ms ease, color 200ms ease;
 }
 
 body.dark-theme {
@@ -355,25 +355,25 @@ a {
   bottom: 0;
   border-radius: 180px;
   background: var(--bg-switch-light);
-  transition: 300ms;
+  transition: 100ms;
 }
 .slider::before {
   content: '';
   position: absolute;
-  width: 26px;
-  height: 26px;
-  left: 4px;
+  width: 24px;
+  height: 24px;
+  left: 5px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
   background-color: var(--bg);
-  transition: 300ms;
+  transition: 100ms;
 }
 .switch input:checked + .slider {
   background: var(--bg-switch-dark);
 }
 .switch input:checked + .slider::before {
-  transform: translate(100%, -50%);
+  transform: translate(27px, -50%);
 }
 
 /* 9. footer */
