@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Frontend Mentor | Social media dashboard</title>
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="/src/css/normalize.css" />
+    <link rel="stylesheet" href="/src/css/utilities.css" />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <body class="light-theme">
+    <!-- header -->
+    <header class="header">
+      <!-- container -->
+      <div class="container">
+        <!-- toolbar -->
+        <div class="toolbar">
+          <!-- toolbar before-->
+          <div class="toolbar-before">
+            <!-- toolbar item -->
+            <div class="toolbar-item">
+              <h1>
+                <a href="/">Social Media Dashboard</a>
+              </h1>
+              <span class="u-text-bold">Total Followers: 23,004</span>
+            </div>
+            <!-- toolbar item end -->
+          </div>
+          <!-- toolbar before end -->
+
+          <!-- toolbar after -->
+          <div class="toolbar-after">
+            <!-- toolbar item -->
+            <div class="toolbar-item">
+              <div class="u-text-bold u-pr-3">
+                Dark Mode
+              </div>
+              <div class="toolbar-item-control">
+                <label for="themeToggler" class="switch">
+                  <input id="themeToggler" type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </div>
+            <!-- toolbar item end -->
+          </div>
+          <!-- toolbar after end-->
+        </div>
+        <!-- toolbar end -->
+      </div>
+      <!-- container end -->
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- section -->
+      <section class="section section-main">
+        <!-- container -->
+        <div class="container">
+          <!-- cards wrapper-->
+          <div class="cards-wrapper cards-wrapper-main">
+            <!-- card -->
+            <div
+              class="card card-facebook u-flex u-flex-column u-align-items-center u-justify-content-center"
+            >
+              <div class="u-flex u-align-items-center">
+                <img
+                  src="./assets/images/icon-facebook.svg"
+                  alt="Social brand"
+                />
+                <span
+                  class="card-nickname u-text-bold u-ml-1 u-text-ellipsis"
+                  title="@hannibalLecter"
+                >
+                  @hannibalLecter
+                </span>
+              </div>
+
+              <div class="u-flex u-align-items-center u-flex-column u-my-2">
+                <span
+                  class="u-text-bold u-font-size-60 u-line-height-1 text-secondary"
+                  >1987</span
+                >
+                <span class="u-spacing u-uppercase">Followers</span>
+              </div>
+
+              <div
+                class="u-flex u-align-items-center u-text-bold text-secondary"
+              >
+                <img src="./assets/images/icon-up.svg" alt="" />
+                <span class="u-pl-05 text-success">12 Today</span>
+              </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card -->
+            <div
+              class="card card-twitter u-flex u-flex-column u-align-items-center u-justify-content-center"
+            >
+              <div class="u-flex u-align-items-center">
+                <img
+                  src="./assets/images/icon-twitter.svg"
+                  alt="Social brand"
+                />
+                <span
+                  class="card-nickname u-text-bold u-ml-1 u-text-ellipsis"
+                  title="@hannibalLecter"
+                >
+                  @hannibalLecter
+                </span>
+              </div>
+
+              <div class="u-flex u-align-items-center u-flex-column u-my-2">
+                <span
+                  class="u-text-bold u-font-size-60 u-line-height-1 text-secondary"
+                  >1044</span
+                >
+                <span class="u-spacing u-uppercase">Followers</span>
+              </div>
+
+              <div
+                class="u-flex u-align-items-center u-text-bold text-secondary"
+              >
+                <img src="./assets/images/icon-up.svg" alt="" />
+                <span class="u-pl-05 text-success">99 Today</span>
+              </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card -->
+            <div
+              class="card card-instagram u-flex u-flex-column u-align-items-center u-justify-content-center"
+            >
+              <div class="u-flex u-align-items-center">
+                <img
+                  src="./assets/images/icon-instagram.svg"
+                  alt="Social brand"
+                />
+                <span
+                  class="card-nickname u-text-bold u-ml-1 u-text-ellipsis"
+                  title="@realhannibal"
+                >
+                  @realhannibal
+                </span>
+              </div>
+
+              <div class="u-flex u-align-items-center u-flex-column u-my-2">
+                <span
+                  class="u-text-bold u-font-size-60 u-line-height-1 text-secondary"
+                  >11k</span
+                >
+                <span class="u-spacing u-uppercase">Followers</span>
+              </div>
+
+              <div
+                class="u-flex u-align-items-center u-text-bold text-secondary"
+              >
+                <img src="./assets/images/icon-up.svg" alt="" />
+                <span class="u-pl-05 text-success">1099 Today</span>
+              </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card -->
+            <div
+              class="card card-youtube u-flex u-flex-column u-align-items-center u-justify-content-center"
+            >
+              <div class="u-flex u-align-items-center">
+                <img
+                  src="./assets/images/icon-youtube.svg"
+                  alt="Social brand"
+                />
+                <span
+                  class="card-nickname u-text-bold u-ml-1 u-text-ellipsis"
+                  title="Hannibal L."
+                >
+                  Hannibal L.
+                </span>
+              </div>
+
+              <div class="u-flex u-align-items-center u-flex-column u-my-2">
+                <span
+                  class="u-text-bold u-font-size-60 u-line-height-1 text-secondary"
+                  >8239</span
+                >
+                <span class="u-spacing u-uppercase">Subscribers</span>
+              </div>
+
+              <div
+                class="u-flex u-align-items-center u-text-bold text-secondary"
+              >
+                <img src="./assets/images/icon-down.svg" alt="" />
+                <span class="u-pl-05 text-danger">144 Today</span>
+              </div>
+            </div>
+            <!-- card end -->
+          </div>
+          <!-- cards wrapper end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+      <!-- section -->
+      <section class="section">
+        <!-- container -->
+        <div class="container">
+          <h2 class="h1 u-mb-3">Overview - Today</h2>
+          <!-- cards wrapper -->
+          <div class="cards-wrapper cards-wrapper-overview">
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Page Views</span>
+                <img
+                  src="./assets/images/icon-facebook.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  87
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-up.svg" alt="Social brand" />
+                  <span class="u-pl-05 u-text-bold text-success">3%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Likes</span>
+                <img
+                  src="./assets/images/icon-facebook.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  52
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-down.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-danger">2%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Likes</span>
+                <img
+                  src="./assets/images/icon-instagram.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  5462
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-up.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-success">2257%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Profile Views</span>
+                <img
+                  src="./assets/images/icon-instagram.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  52k
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-up.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-success">1375%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Retweets</span>
+                <img
+                  src="./assets/images/icon-twitter.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  117
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-up.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-success">303%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Likes</span>
+                <img
+                  src="./assets/images/icon-twitter.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  507
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-up.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-success">553%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Likes</span>
+                <img
+                  src="./assets/images/icon-youtube.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  107
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-down.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-danger">19%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+            <!-- card -->
+            <div class="card u-px-3">
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-center u-pt-1"
+              >
+                <span class="u-text-bold">Total Views</span>
+                <img
+                  src="./assets/images/icon-youtube.svg"
+                  alt="Social brand"
+                />
+              </div>
+              <div
+                class="u-h-50 u-flex u-justify-content-between u-align-items-end u-pb-2"
+              >
+                <span
+                  class="u-text-bold u-font-size-30 u-line-height-1 text-secondary"
+                >
+                  1407
+                </span>
+                <div class="u-flex u-align-items-center">
+                  <img src="./assets/images/icon-down.svg" alt="Arrow icon" />
+                  <span class="u-pl-05 u-text-bold text-danger">12%</span>
+                </div>
+              </div>
+            </div>
+            <!-- card end -->
+          </div>
+          <!-- cards wrapper end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div
+          class="u-flex u-align-items-center u-justify-content-center u-font-size-12"
+        >
+          <span>
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+            >
+              Frontend Mentor</a
+            >. Coded by<a
+              href="https://github.com/juanmesa2097"
+              target="_blank"
+            >
+              juanmesa2097</a
+            >.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
