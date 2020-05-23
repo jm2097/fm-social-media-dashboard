@@ -6,15 +6,9 @@ const themeMap = {
 };
 
 const toggleTheme = e => {
-  const currentTheme = localStorage.getItem('theme') || 'light';
+  const currentTheme =
+    document.body.className.indexOf('light') > -1 ? 'light' : 'dark';
   document.body.className = `${themeMap[currentTheme]}-theme`;
-  localStorage.setItem('theme', themeMap[currentTheme]);
 };
 
 switcher.onchange = toggleTheme;
-
-window.onload = () => {
-  const currentTheme = localStorage.getItem('theme') || 'light';
-  document.body.className = `${currentTheme}-theme`;
-  switcher.checked = currentTheme === 'dark';
-};
