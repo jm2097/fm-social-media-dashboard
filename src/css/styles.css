@@ -3,13 +3,12 @@
 
     1. imports
     2. base styles
-    3. base styles
-    4. header
-    5. toolbar
-    6. sections
-    7. cards
-    8. toggle switch
-    9. footer
+    3. header
+    4. toolbar
+    5. main
+    6. cards
+    7. toggle switch
+    8. footer
     ------------------ */
 
 /* 1. imports */
@@ -261,21 +260,18 @@ a {
   }
 }
 
-/* 5. sections */
+/* 5. main */
+main,
 .section {
   position: relative;
 }
 
-.section-main {
-  bottom: 50px;
-}
-
-.section-main {
+main {
   bottom: 50px;
 }
 
 @media (min-width: 768px) {
-  .section-main {
+  main {
     bottom: 125px;
   }
 }
@@ -346,7 +342,7 @@ a {
   background-color: var(--youtube);
 }
 
-/* 8. toggle switch */
+/* 7. toggle switch */
 .switch {
   position: relative;
   display: inline-block;
@@ -390,9 +386,8 @@ a {
   transform: translate(27px, -50%);
 }
 
-/* 9. footer */
+/* 8. footer */
 .footer {
   background-color: var(--bg-pattern);
-  margin-top: 5rem;
   padding: 2rem 0;
 }
