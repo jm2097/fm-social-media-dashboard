@@ -202,7 +202,7 @@ a {
 
 @media (min-width: 768px) {
   .header {
-    height: 260px;
+    height: 250px;
   }
 }
 
@@ -272,7 +272,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    bottom: 125px;
+    bottom: 110px;
   }
 }
 
@@ -285,7 +285,7 @@ main {
 }
 
 .cards-wrapper-main {
-  grid-auto-rows: 230px;
+  grid-auto-rows: 210px;
 }
 .cards-wrapper-overview {
   grid-auto-rows: 125px;
@@ -347,7 +347,7 @@ main {
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 30px;
+  height: 28px;
 }
 
 .switch input {
@@ -370,9 +370,9 @@ main {
 .slider::before {
   content: '';
   position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 5px;
+  width: 22px;
+  height: 22px;
+  left: 6px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
